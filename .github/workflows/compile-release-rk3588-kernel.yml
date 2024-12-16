@@ -39,7 +39,7 @@ on:
         default: "all"
         type: choice
         options:
-          - all
+          - 全部
           - dtbs
       kernel_toolchain:
         description: "Select the compilation toolchain"
@@ -79,7 +79,7 @@ on:
           - -summer-growing
           - -autumn-harvesting
           - -winter-storing
-          - -yourname
+          - -YAN
       kernel_config:
         description: "Set the path of kernel .config"
         required: false
